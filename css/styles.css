@@ -1,6 +1,7 @@
 /* ===== HEADER ===== */
 
 main {
+  flex: 1;
   margin-top: 140px;
 }
 
@@ -11,6 +12,9 @@ body {
   background-color: #F8F7FC;
   color: #2E2E2E;
   scroll-behavior: smooth;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ===== NAVBAR ===== */
@@ -37,6 +41,10 @@ nav a {
 
 nav a:hover {
   color: #8E7DBE !important;
+}
+
+.logo {
+  height: 50px;
 }
 
 /* ===== HERO ===== */
