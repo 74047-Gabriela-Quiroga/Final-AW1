@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Córdoba Turismo | Contacto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header>
+  <nav class="container d-flex justify-content-between align-items-center p-3">
+    <h1 class="h4 m-0">Córdoba Turismo</h1>
+    <div>
+      <a href="index.html#inicio" class="me-4">Inicio</a>
+      <a href="index.html#sobre" class="me-4">Nosotros</a>
+      <a href="index.html#destinos" class="me-4">Destinos</a>
+      <a href="reserva.html" class="me-4">Reserva</a>
+      <a href="contacto.html">Contacto</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container mt-5">
+  <section class="row justify-content-center">
+    <h2 class="mb-4 text-center">Contacto</h2>
+    <div class="form-card" style="max-width:600px; width:100%;">
+
+      <form id="formContacto">
+
+        <div class="mb-3">
+          <label class="form-label">Nombre</label>
+          <input type="text" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Teléfono</label>
+          <input type="tel" id="telefono" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Mensaje</label>
+          <textarea class="form-control" rows="4" required></textarea>
+        </div>
+
+        <div id="mensajeDiv"></div>
+
+        <button type="submit" class="btn-confirmar w-100">
+          Enviar Mensaje
+        </button>
+
+      </form>
+
+    </div>
+  </section>
+</main>
+
+<footer class="text-center">
+  © 2026 Córdoba Turismo - Desarrollo: Quiroga - AW1
+</footer>
+
+<script type="module" src="js/pages/contactoPage.js"></script>
+
+</body>
+</html>

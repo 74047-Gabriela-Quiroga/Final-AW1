@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "nombre": "City Tour Centro Histórico",
+    "descripcion": "Recorrido guiado por el centro histórico de Córdoba, incluyendo la Manzana Jesuítica y la Catedral.",
+    "precio": 45000,
+    "imagen": "img/city-tour.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Excursión a La Cumbrecita",
+    "descripcion": "Pueblo peatonal de estilo alpino rodeado de naturaleza, cascadas y senderos serranos en el Valle de Calamuchita.",
+    "precio": 95000,
+    "imagen": "img/cumbrecita.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Excursión a Villa General Belgrano",
+    "descripcion": "Recorrido por la villa de tradición centroeuropea, famosa por su arquitectura alpina, gastronomía y la Fiesta Nacional de la Cerveza.",
+    "precio": 95000,
+    "imagen": "img/villa-belgrano.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Alta Gracia y Estancias Jesuíticas",
+    "descripcion": "Tour cultural por Alta Gracia y las históricas Estancias Jesuíticas.",
+    "precio": 70000,
+    "imagen": "img/alta-gracia.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Valle de Traslasierra",
+    "descripcion": "Ríos cristalinos y paisajes naturales del oeste cordobés.",
+    "precio": 90000,
+    "imagen": "img/traslasierra.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Ruta del Vino en Colonia Caroya",
+    "descripcion": "Recorrido por bodegas locales con degustación de vinos regionales.",
+    "precio": 85000,
+    "imagen": "img/caroya.png"
+  }
+]
+

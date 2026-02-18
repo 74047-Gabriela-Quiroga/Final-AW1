@@ -1,0 +1,251 @@
+/* ===== HEADER ===== */
+
+main {
+  margin-top: 140px;
+}
+
+/* ===== RESET ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #F8F7FC;
+  color: #2E2E2E;
+  scroll-behavior: smooth;
+}
+
+/* ===== NAVBAR ===== */
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  z-index: 1000;
+}
+
+header h1 {
+  font-weight: 600;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2E2E2E !important;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #8E7DBE !important;
+}
+
+/* ===== HERO ===== */
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  background: linear-gradient(135deg, #8E7DBE, #A8D5BA);
+  color: white;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+/* ===== BOTÓN ===== */
+
+.btn-primary {
+  background-color: #8E7DBE !important;
+  color: white !important;
+  border: none !important;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #f1f1f1 !important;
+  color:  #8E7DBE !important;
+}
+
+/* ===== SECCIONES ===== */
+
+section:not(.hero) {
+  padding: 100px 20px;
+}
+
+/* ===== GRID DESTINOS ===== */
+
+.grid-destinos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* ===== CARD DESTINO ===== */
+
+.card-destino {
+  background: white;
+  border-radius: 15px;
+  border: 3px solid white;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-destino:hover {
+  transform: translateY(-5px);
+  border: 3px solid #8E7DBE;
+}
+
+.card-destino img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card-destino h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.card-destino p {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.card-destino strong {
+  color: #8E7DBE;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.card-destino button,
+.card-destino .btn-primary {
+  margin-top: 15px;
+}
+
+.card-nombre {
+  min-height: 5rem;
+}
+
+.card-descripcion {
+  min-height: 7rem;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+  background: #2E2E2E;
+  color: white;
+  padding: 30px;
+}
+
+/* ===== RESERVA ===== */
+
+.form-card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.form-card h2 {
+  font-weight: 600;
+}
+
+/* Inputs */
+
+.form-control,
+.form-select {
+  border-radius: 12px;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #8E7DBE;
+  box-shadow: 0 0 0 2px rgba(142,125,190,0.2);
+}
+
+/* Total */
+
+h5 {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #8E7DBE;
+}
+
+/* Botón personalizado */
+
+.btn-confirmar {
+  background-color: #8E7DBE;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-confirmar:hover {
+  background-color: #f1f1f1 !important;
+  color:  #8E7DBE !important;
+}
+
+/* Alertas más suaves */
+
+.alert {
+  border-radius: 12px;
+}
+
+
+/* ===== SOBRE NOSOTROS IMAGENES ===== */
+.imagenes-sobre {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  height: 400px; 
+  margin: 0 auto;
+}
+
+.imagenes-sobre img {
+  position: absolute;
+  width: 60%;  
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Imagen de atrás */
+.img-1 {
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Imagen de adelante */
+.img-2 {
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
