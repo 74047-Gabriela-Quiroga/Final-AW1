@@ -17,7 +17,7 @@
     "id": 3,
     "nombre": "Excursión a Villa General Belgrano",
     "descripcion": "Recorrido por la villa de tradición centroeuropea, famosa por su arquitectura alpina, gastronomía y la Fiesta Nacional de la Cerveza.",
-    "precio": 95000,
+    "precio": 95000.5,
     "imagen": "img/villa-belgrano.jpg"
   },
   {

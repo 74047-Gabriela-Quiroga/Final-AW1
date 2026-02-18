@@ -29,7 +29,8 @@ function mostrarMensaje(mensaje, tipo = "success") {
 }
 
 function actualizarTotal() {
-  const precio = parseInt(select.value);
+  const destinoSeleccionado = destinos.find(destino => destino.id === parseInt(select.value));
+  const precio = destinoSeleccionado.precio;
   const personas = parseInt(personasInput.value) || 0;
   totalSpan.textContent = calcularTotal(precio, personas, seguroCheck.checked);
 }
