@@ -1,8 +1,10 @@
-import { obtenerDestinos } from "../services/api.js";
+import { obtenerDestinos } from "../servicios/lectorJSON.js";
 
+// Referencia al contenedor donde se mostrarán los destinos y obtención de datos
 const container = document.getElementById("destinosContainer");
 const destinos = await obtenerDestinos();
 
+// Función para crear los cards de los destinos
 function renderDestinos(destinos) {
     
   container.innerHTML = destinos.map(destino => `
