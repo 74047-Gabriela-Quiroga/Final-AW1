@@ -1,11 +1,11 @@
-/* ===== HEADER ===== */
+/* ===== MAIN ===== */
 
 main {
   flex: 1;
-  margin-top: 140px;
+  margin-top: 0 ;
 }
 
-/* ===== RESET ===== */
+/* ===== BODY ===== */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;

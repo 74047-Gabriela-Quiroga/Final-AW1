@@ -1,6 +1,6 @@
 **Córdoba Turismo — Proyecto Web**
 
-Aplicación Web Tradicional Multi-Página (MPA - Multi-Page Application) que muestra destinos turísticos, permite reservar y enviar mensajes de contacto. Usa HTML, CSS (Bootstrap) y módulos ES de JavaScript.
+Aplicación Web Tradicional Multi-Página (MPA - Multi-Page Application) que muestra destinos turísticos, permite reservar y enviar mensajes de contacto. Usa HTML, CSS (Bootstrap) y módulos de JavaScript.
 
 ┌─────────────────────────────────────────────────────────────┐
 │                   CÓRDOBA TURISMO                           │
@@ -117,11 +117,9 @@ Este apartado explica cómo fluye la información en la aplicación para que cua
 │ │  └─ Bootstrap 5.3.2 (Framework)        │
 │ │     ├─ Grid system                     │
 │ │     ├─ Componentes predefinidos        │
-│ │     ├─ Utilidades (spacing, etc)       │
 │ │     └─ Responsive design               │
 │ │                                        │
 │ └─ JavaScript (Vanilla)                  │
-│    ├─ ES6+ (módulos, async/await)        │
 │    ├─ Fetch                              │
 │    ├─ localStorage                       │
 │    ├─ DOM Manipulation                   │
@@ -145,3 +143,6 @@ La aplicación es un MPA que:
 - Guarda datos localmente en localStorage.
 - Es completamente responsiva con Bootstrap.
 - Usa arquitectura modular (servicios, utils, pages).
+
+**Datos del autor**
+Gabriela Alejandra Quiroga - Aplicaciones Web 1 - Trabajo Final 2026
